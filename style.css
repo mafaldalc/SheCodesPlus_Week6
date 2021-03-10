@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background-color: rgb(216, 223, 226) !important;
+}
+
+.container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: monospace;
+}
+
+.col-6 .card {
+  background-color: rgb(180, 222, 224);
+  border-radius: 7px;
+  border-color: black;
+  border-width: 2px;
+  padding: 6px 0;
+  text-align: center;
+}
+
+i {
+  color: rgb(56, 125, 153);
+  margin: 0 auto;
+}
+.col-2 .card {
+  margin: 0 auto;
+  background-color: rgb(247, 247, 247);
+  border-radius: 5px;
+  border-color: black;
+  border-style: dotted;
+  padding: auto;
+}
+
+.col-6 .card h5 {
+  font-size: 30px;
+}
+.col-2 h5 {
+  font-size: 15px;
+}
+
+p {
+  color: rgb(56, 125, 153);
+}
+.col-6 p {
+  font-size: 35px;
+  font-style: italic;
+}
+.col-2 p {
+  font-size: 30px;
+  font-style: italic;
+}
+button {
+  font-family: "Truculenta", sans-serif;
+  margin: 15px auto;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgb(56, 125, 153);
+}
+h1 {
+  font-family: "Truculenta", sans-serif;
+  text-align: center;
+}
+h2 {
+  font-family: "Truculenta", sans-serif;
+  text-align: center;
+  display: inline;
+}
+
+.weatheradvice {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.mb-3 {
+  display: inline-block;
+  margin: 20 auto;
+  width: 80%;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 22px;
+  box-shadow: 2px 2px 2px darkgrey;
+  box-sizing: border-box;
+}
+
+.card {
+  box-shadow: 4px 4px 4px darkgrey;
+}
+.top {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
